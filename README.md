@@ -1,6 +1,5 @@
 この設定の目標：
 - できる限りシンプルにして、ツールに対する学習時間を少なくする。
-- 同時に、必要な機能を備えたvim環境を用意する。
 - 大きなコードベースを読むのに便利な機能が欲しい。
 
 方針：
@@ -36,6 +35,9 @@ call plug#end()
 
 ## インストールしたプラグイン
 
+- [vim-sensible](https://github.com/tpope/vim-sensible)
+	- Vimの標準的な設定をしてくれる。
+	- 詳細はドキュメントを確認。
 - [vim-airline](https://github.com/vim-airline/vim-airline)
 	- ファンシーなステータスバーになる
 - [Auto Pairs](https://www.vim.org/scripts/script.php?script_id=3599)
